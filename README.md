@@ -54,8 +54,21 @@ prob 這一列需要進行預測，因此為空。
 
 最後，將最佳模型的預測結果儲存為 CSV 檔案 (prediction.csv)，以便進行進一步的分析和應用。
 
+## 配置環境
+
+### Jupyter
+```bash
+conda create --name myenv python=3.10
+```
+
+### 安裝套件
+```bash
+# 針對 Jupyter 的環境
+pip install -r requirements.txt
+```
+
 ## 參考資料
 
 ### 資料集 - [連結](https://tianchi.aliyun.com/competition/entrance/231576/information)
 
-### 用戶的復購預測 - [連結](https://www.heywhale.com/mw/project/6044a21f6b48c2001529f1b5/content)
+### 顧客的重複購買預測 - [連結](https://www.heywhale.com/mw/project/6044a21f6b48c2001529f1b5/content)
